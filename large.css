@@ -1,0 +1,374 @@
+@media (min-device-width:768px) and (max-device-width:1200px){
+
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     .nav-manu{
+          margin-left: 50px !important;
+          width: 900px !important;
+     }
+
+     .nav-links{
+          display: flex;
+          gap: 10px;
+          word-spacing: 5px;
+
+     }
+
+     .nav-links li{
+          font-weight: 700;
+          line-height: 0.2px;
+          font-size: 30px;
+     }
+
+
+     /* hero section */
+
+     .hero{
+          width: 100%;
+
+     }
+
+     .hero-text{
+          position: relative;
+          z-index: 2;
+          max-width: 400px;
+          margin: 0 auto;
+     
+          & h1{
+            margin-left: 20px;
+            font-size: 60px;
+     
+              
+          }
+     
+     
+     }
+
+     .indicator{
+          margin-left: 170px;
+     }
+
+
+     
+/* book room section */
+
+.Bookroom{
+     padding: 0 15px;
+
+     .bgBook{
+          .booktext{
+               & h3{
+                    font-size: 45px;
+               }
+          }
+          
+     }
+
+
+}
+
+
+#Booklist{
+     display: flex;
+     margin-top: 10px;
+    justify-content: space-between;
+
+    .btn{
+     font-weight: 500;
+     width: 150px;
+     height: 55px;
+     margin-top: 20px;
+     font-size: 0.9rem;
+    
+    }
+
+    .btn:hover{
+     background-color: #4278ac;
+    }
+    
+}
+
+.Bookchack{
+
+     .chack{
+          display: flex;
+     }
+     & h3{
+          font-size: 30px;
+          padding: 20px 0px;
+     }
+     & p{
+          font-size: 25px;
+     }
+}
+
+
+
+.personman{
+     margin-left: 100px;
+     & h3{
+          font-size: 30px;
+          padding: 20px 0px;
+     }
+}
+.Bookperson{
+     display: flex;
+     gap: 20px;
+     border-radius: 12px;
+     background-color: #ffffff;
+     padding: 10px 15px;
+
+     & p{
+          font-size: 25px;
+          font-weight: 600;
+     }
+     
+}
+
+
+/* service  section*/
+
+.service{
+     background-color: #F3F3F3;
+     padding: 100px 10px;
+
+}
+
+.service-all{
+     display: grid;
+     grid-template-columns: repeat(2, 0.5fr);
+     gap: -10px;
+     margin-left: -20px;
+
+
+     .Rooms{
+          width: 500px;
+          height: 200px;
+          margin-bottom: 500px;
+          margin-left: 35px;
+     }
+
+     #dining{
+          width: 500px;
+          height: 200px;
+          margin-bottom: 600px;
+          margin-left: 35px;
+
+         & img{
+               width: 450px;
+               height: 750px;
+          
+         }
+         & div{
+          margin-top: -250px;
+          & h2{
+               font-size: 70px;
+          }
+     }
+     }
+
+     #Conferences{
+          position: relative;
+          margin-left: 60px;
+          margin-bottom: 100px;
+ 
+          & img{
+                width: 450px;
+                height: 600px;
+           
+          }
+
+          & div{
+               margin-top: -250px;
+               margin-left: 10px;
+               & h2{
+                    font-size: 60px;
+               }
+          }
+
+     }
+
+     #service{
+          position: relative;
+          margin-left: 60px;
+          margin-top: -700px;
+ 
+          & img{
+                width: 450px;
+                height: 600px;
+           
+          }
+
+          & div{
+               margin-top: -250px;
+               margin-left: 17%;
+               & h2{
+                    font-size: 50px;
+                    width: 250px !important;
+               }
+          }
+
+     }
+
+
+     #Wedding{
+          position: relative;
+          margin-left: -500px;
+          margin-bottom: 100px;
+ 
+          & img{
+                width: 450px;
+                height: 600px;
+           
+          }
+
+          & div{
+               margin-top: -250px;
+               margin-left: 17%;
+               & h2{
+                    font-size: 50px;
+                    width: 250px !important;
+               }
+          }
+
+     }
+}
+
+
+/* Special Offers section */
+
+.Special-offers{
+     & div{
+          .Special1{
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               justify-content: space-between;
+               .special{ 
+                    padding: 1.5rem;           
+            
+               & h4{
+                    color: #65AEF2;
+                    font-size: 35px;
+                    font-weight: 500;
+
+               }
+               & h2{
+                    font-size: 60px;
+                    margin-top: 30px;
+               }
+
+               & p{
+                    margin-top: 30px;
+                    font-size: 25px;
+          
+               }
+          }
+     }
+
+          .view{
+               & h2{
+                    font-size: 40px;
+                    font-weight: 700;
+                    margin-top: 100px;
+               }
+          }
+
+          .offer{
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               gap: 100px;
+               padding: 10px 150px;
+               background-color: white;
+               margin-left: -50px;
+               
+
+               .div{
+                    margin-top: 40px;
+                    & img{
+                         width: 340px;
+                         margin-left: 30px;
+                         margin-top: 20px;
+                         width: 300px;
+                         height: 250px;
+                    }
+
+               }
+
+          }
+
+          }
+
+
+     }
+
+
+          /* footer section */
+
+          .footer{
+               padding: 15px 0px;
+               width: 100%;
+
+               .footer-promo{
+                    margin-top: 50px;
+                    margin-left: -80px;
+                   & h2{
+                    font-size: 28px;
+                   }
+          
+                   .email{
+                    display: flex;
+
+                    #email{
+                         display: flex;
+                         border-radius: 8px;
+                         max-width: 380px;
+                         margin-left: 10px;
+                    }
+          
+                    & button{
+                         margin-top: -2px;
+                         margin-left: 2%;
+                         border-radius: 8px;
+                         
+                    }
+          
+                   }
+               }
+          
+               .footer-Bg{
+                    display: flex;
+               }
+          
+               .footer-logo{
+                    & h2{
+                         font-size: 45px;
+                         margin-top:2rem;
+                    }
+                    .footer-content{
+                         display: flex;
+                         gap: 50px;
+                         margin-top: 70px;
+                         font-size: 20px;
+                         text-align: center;
+                    }
+          
+               }
+          
+          
+          }
+          
+          .copyright{
+               text-align: center;
+                    margin-top: -50px;
+                    color: rgb(255, 255, 255);
+              
+          }
+
+
+
+
+
+}
