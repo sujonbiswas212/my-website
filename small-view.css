@@ -1,4 +1,5 @@
-@media (min-width:400px) and ( max-width:600px){
+
+@media (min-width:200px) and ( max-width:400px){
 
      .nav-manu{
           
@@ -57,7 +58,7 @@
      .hero-text {
           & h1 {
               margin-left: 38px;
-              font-size: 51px;
+              font-size: 39px;
           }
       }
 
@@ -100,6 +101,36 @@
      }
 }
 
+.Bookperson {
+     display: flex;
+     gap: 10px;
+     border-radius: 12px;
+     background-color: #ffffff;
+     padding: 10px -3px;
+ }
+
+
+ .Booklist{
+    margin-top: 2px;
+
+    .btn{
+     font-weight: 600;
+     border-radius: 12px;
+     width: 160px;
+     height: 35px;
+     margin-top: 40px;
+     font-size: 20px;
+     color: white;
+     cursor: pointer;
+     margin-left: 60px;
+    
+    }
+
+    .btn:hover{
+     background-color: #4278ac;
+    }
+    
+}
 
 /* service  section*/
 
@@ -113,59 +144,84 @@
      display: grid;
      grid-template-columns: repeat(1, 1fr);
      margin: 0 auto;
-     margin-left: 12%;
+     margin-left: 4%;
 
      & img {
-          width: 325px;
-          height: 418px;
+          width: 243px;
+          height: 314px;
       }
 
 }
 
+.Rooms{
+
+
+& div {
+     position: absolute;
+     color: white;
+     margin-top: -166px;
+     margin-left: 51px;
+     font-size: 29px;
+     font-weight: 600;
+     font-family: var(--font-family);
+ }
+}
+
+.Dining {
+     & div {
+         margin-top: -181px;
+         margin-left: 56px;
+         font-size: 33px;
+         font-weight: 900;
+     }
+ }
+
 .Conferences {
      & div {
-         position: absolute;
-         color: white;
-         margin-top: -180px;
-         margin-left: 71px;
-         font-size: 20px;
-         font-weight: 500;
-         font-family: var(--font-family);
-     }
+      
+          margin-top: -140px;
+          margin-left: 100px;
+          font-size: 25px;
+          font-weight: 900;
+          position: absolute;
+
+          & h2{
+               font-size: 30px;
+               margin-left: -70px;
+               max-width: 50px;
+               margin-top: -40px;
+          }
+      }
  }
 
  .Wedding {
      & div {
-         position: absolute;
-         color: white;
-         margin-top: -193px;
-         margin-left: 40px;
-         font-size: 21px;
-         font-weight: 800;
-         font-family: var(--font-family);
-     }
+          margin-top: -166px;
+          margin-left: 51px;
+          font-size: 29px;
+          font-weight: 600;
+      }
  }
 
 /* Special Offers section */
 
 .Special-offers{
-     margin: 0 auto;
-     width: 100%;
      & div{
           .Special1{
                display: block;
-               margin:  0 auto ;
-               .special{ 
-                    padding: 0.9rem;           
+
+               .special{  
+                    padding: 10px 2px;      
+                    max-width: 150px;    
             
                & h4{
                     color: #65AEF2;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: 500;
 
                }
                & h2{
-                    font-size: 40px;
+                    font-size: 30px;
                     margin-top: 30px;
                }
 
@@ -191,14 +247,23 @@
           .offer{
                display: flex;
                flex-direction: column;
-               gap: 20px;
+               gap: 40px;
                margin: 0 auto;
-               padding: 50px 60px;
+               padding: 40px 40px;
+                    #div1 {
+                         width: 262px;
+                         height: 500px;
 
-               #div1 {
-                    width: 350px;
-                    height: 531px;
-                }
+                         & img {
+                              width: 209px;
+                          }
+
+                          .offer-text {
+                              padding: 6px 9px;
+                              font-size: 18px;
+                          }
+                     }
+                
 
           }
 
@@ -228,14 +293,14 @@
 
                     #email{
                          border-radius: 8px;
-                         max-width: 380px;
-                         margin-left: -100px;
+                         max-width: 256px;
+                         margin-left: -77px;
                     }
           
                     & button{
-                         margin-top: 20px;
-                         margin-left: 10%;
-                         border-radius: 8px;
+                         margin-top: 15px;
+                         margin-left: -27%;
+                         border-radius: 12px;
                          
                     }
           
@@ -248,8 +313,8 @@
           
                .footer-logo{
                     & h2{
-                         font-size: 45px;
-                         margin-top: 1.8rem;
+                         font-size: 36px;
+                         margin-top: 3rem;
                     }
                     .footer-content{
                          display: block;
