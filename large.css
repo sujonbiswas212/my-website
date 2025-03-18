@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 @media (min-width:800px) and (max-width:1000px){
      
      html,body{
           overflow-x: hidden;
+=======
+@media (min-device-width:768px) and (max-device-width:1000px){
+
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+>>>>>>> a40303b3c7f5f0cabcba6de7445b605edc8026f7
      }
      
      .header{
@@ -277,6 +286,7 @@
      
           .footer-logo{
 
+<<<<<<< HEAD
                & h2{
                     font-size: 50px;
                }
@@ -306,3 +316,10 @@
           padding-top: 10px;
      }
 }
+=======
+
+
+
+
+}
+>>>>>>> a40303b3c7f5f0cabcba6de7445b605edc8026f7
